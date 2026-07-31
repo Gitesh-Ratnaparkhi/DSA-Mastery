@@ -14,6 +14,7 @@ class Solution {
         // solution 2 adveance
         // Time complexcity O(n)
         // Space complexcity O(1)
+        
         int m1 = 0, m2 = 0;
         for (int num : nums) {
             if (num > m1) {
