@@ -1,4 +1,16 @@
 # DSA-Mastery
+
+
+<img width="1024" height="559" alt="github" src="https://github.com/user-attachments/assets/bbb39998-0ac2-49d6-827f-62dd9c09d161" />
+
+
+
+
+https://github.com/user-attachments/assets/f80e6a8f-32c7-43e8-bbb1-771c414c3c4b
+
+
+
+
 **DSA-Mastery: Complete Java Solutions & Algorithmic Patterns**
 
 **DSA-Mastery** serves as a centralized, high-standard repository documenting my technical problem-solving journey across core Data Structures and Algorithms, implemented exclusively in **Java**.
