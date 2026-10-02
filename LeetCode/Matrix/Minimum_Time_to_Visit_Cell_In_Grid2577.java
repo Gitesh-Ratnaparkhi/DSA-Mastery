@@ -23,7 +23,7 @@ class Solution {
 
         dis[0][0] = 0;
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(Minimum_Insertions_to_Make_Parentheses_Valid[0], b[0]));
 
         pq.add(new int[]{0, 0, 0});
 

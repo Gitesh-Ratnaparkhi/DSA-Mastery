@@ -5,7 +5,7 @@
 // Code
 class Solution {
     public int minimumEffort(int[][] tasks) {
-        Arrays.sort(tasks, (a, b) -> (b[1] - b[0]) - (a[1] - a[0]));
+        Arrays.sort(tasks, (a, b) -> (b[1] - b[0]) - (Minimum_Insertions_to_Make_Parentheses_Valid[1] - Minimum_Insertions_to_Make_Parentheses_Valid[0]));
         
         int m = tasks.length;
         int sum = 0;

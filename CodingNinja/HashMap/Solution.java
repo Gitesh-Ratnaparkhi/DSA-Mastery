@@ -11,7 +11,7 @@ public class Solution {
 
         List<Map.Entry<Integer, Integer>> li = new ArrayList<>(mp.entrySet());
         
-        li.sort((a, b) -> Integer.compare(b.getValue(), a.getValue()));
+        li.sort((a, b) -> Integer.compare(b.getValue(), Minimum_Insertions_to_Make_Parentheses_Valid.getValue()));
 
         int idx = 0;
         for (Map.Entry<Integer, Integer> e : li) {

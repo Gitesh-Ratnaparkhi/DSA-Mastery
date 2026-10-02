@@ -10,7 +10,7 @@ public class Merge_overlapping_intervals {
 	        // WRITE YOUR CODE HERE
 		ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
 
-        intervals.sort((a, b) -> Integer.compare(a.get(0), b.get(0)));
+        intervals.sort((a, b) -> Integer.compare(Minimum_Insertions_to_Make_Parentheses_Valid.get(0), b.get(0)));
 
         int n = intervals.size();
         int idx = 0;

@@ -7,7 +7,7 @@ class Solution {
     public ArrayList<ArrayList<Integer>> mergeOverlap(int[][] arr) {
         // Code here
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
-        Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));
+        Arrays.sort(arr, (a, b) -> Integer.compare(Minimum_Insertions_to_Make_Parentheses_Valid[0], b[0]));
 
         int n = arr.length;
         int idx = 0;

@@ -14,10 +14,10 @@ class Solution {
         List<Map.Entry<Integer, Integer>> li = new ArrayList<>(mp.entrySet());
 
         li.sort((a, b) -> {
-            if (!a.getValue().equals(b.getValue())) {
-                return Integer.compare(b.getValue(), a.getValue());
+            if (!Minimum_Insertions_to_Make_Parentheses_Valid.getValue().equals(b.getValue())) {
+                return Integer.compare(b.getValue(), Minimum_Insertions_to_Make_Parentheses_Valid.getValue());
             }
-            return Integer.compare(a.getKey(), b.getKey());
+            return Integer.compare(Minimum_Insertions_to_Make_Parentheses_Valid.getKey(), b.getKey());
         });
 
         ArrayList<Integer> ans = new ArrayList<>();

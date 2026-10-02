@@ -10,7 +10,7 @@
 class Solution {
 
     private String ans(String a, String b) {
-        int al = a.length() - 1;
+        int al = Minimum_Insertions_to_Make_Parentheses_Valid.length() - 1;
         int bl = b.length() - 1;
 
         StringBuilder sb = new StringBuilder();
@@ -19,7 +19,7 @@ class Solution {
         // Process both strings
         while (bl >= 0) {
 
-            int x = a.charAt(al) - '0';
+            int x = Minimum_Insertions_to_Make_Parentheses_Valid.charAt(al) - '0';
             int y = b.charAt(bl) - '0';
 
             int sum = x + y + carry;
@@ -34,7 +34,7 @@ class Solution {
         // Process remaining bits of a
         while (al >= 0) {
 
-            int x = a.charAt(al) - '0';
+            int x = Minimum_Insertions_to_Make_Parentheses_Valid.charAt(al) - '0';
 
             int sum = x + carry;
 
@@ -52,11 +52,11 @@ class Solution {
     }
 
     public String addBinary(String a, String b) {
-        if (a.length() >= b.length()) {
-            return ans(a, b);
+        if (Minimum_Insertions_to_Make_Parentheses_Valid.length() >= b.length()) {
+            return ans(Minimum_Insertions_to_Make_Parentheses_Valid, b);
         }
 
-        return ans(b, a);
+        return ans(b, Minimum_Insertions_to_Make_Parentheses_Valid);
     }
 }
 
